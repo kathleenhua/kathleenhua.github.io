@@ -1,0 +1,93 @@
+/* PROBLEM 1: Remove white margin of body, html */
+body {
+    margin: 0px;
+}
+
+/* PROBLEM 2: Select profile picture and make it round */
+#profile-pic img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* PROBLEM 3: Flesh our your follow button! 5 px for the
+top and bottom, 30 for the left and right*/
+#follow-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    background-color: rgb(44, 47, 230);
+    color: white;
+    width: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* PROBLEM 4: Turn items into a square, 120x120 px image */
+.item img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+/* PROBLEM 5: Create a 10 px horizontal space between items */
+.item img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* PROBLEM 6: Create a 10px vertical space between rows */
+#pictures .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* PROBLEM 7: Add 20px of space between each navigation item */
+body #content #navbar {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* PROBLEM 8: Create a hover effect, so that items will have
+full opacity when hovered over! It should also have a
+transition period of 0.2 seconds*/
+.item:hover {
+    transition: opacity 0.2s;
+    opacity: 1;
+}
+
+/* PROBLEM 9: Add a click effect to the follow button, so
+the font becomes size 18 px when clicked on - as a result, the button will become
+larger when clicked on!*/
+#follow-button:active {
+    font-size: 18px;
+}
+
+/* PROBLEM 10: Add a hover effect such that the text of the
+navigation has an opacity of 1 when hovered over!*/
+#content #navbar:hover {
+    opacity: 1;
+}
+
+/* PROBLEM 11: In one selection, make the follow button, picture
+items, and nav bar items have a pointer cursor */
+#content #navbar, #follow-button, #pictures .item {
+    cursor:pointer;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-item {
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+html {
+    max-width: 500px;
+    margin: auto
+}
