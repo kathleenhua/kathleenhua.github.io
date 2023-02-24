@@ -30,17 +30,25 @@ top and bottom, 30 for the left and right*/
     height: 120px;
     overflow: hidden;
 }
+/* 
+.row {
+    display: inline-block;
+} */
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
 .item img {
-    padding-right: 10px;
-    padding-left: 10px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
 #pictures .row {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* PROBLEM 7: Add 20px of space between each navigation item */
