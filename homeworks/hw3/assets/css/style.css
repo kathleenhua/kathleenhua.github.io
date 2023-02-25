@@ -6,10 +6,10 @@ body {
 /* PROBLEM 2: Select profile picture and make it round */
 #profile-pic img {
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-/* PROBLEM 3: Flesh our your follow button! 5 px for the
+/* PROBLEM 3: Flesh out your follow button! 5 px for the
 top and bottom, 30 for the left and right*/
 #follow-button {
     padding-top: 5px;
@@ -17,18 +17,18 @@ top and bottom, 30 for the left and right*/
     padding-left: 30px;
     padding-right: 30px;
     
-    background-color: rgb(44, 47, 230);
+    /* background-color: rgb(44, 47, 230);
     color: white;
     width: 70px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; */
 }
 
 /* PROBLEM 4: Turn items into a square, 120x120 px image */
 .item img {
     width: 120px;
     height: 120px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /* 
 .row {
@@ -84,18 +84,11 @@ items, and nav bar items have a pointer cursor */
     cursor:pointer;
 }
 
-body {
+/* body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
-.navbar-item {
-    float: right;
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-html {
+/* html {
     max-width: 500px;
     margin: auto
-}
+} */
