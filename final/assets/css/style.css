@@ -39,7 +39,7 @@ ul {
   }
 
 li {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ body {
 }
 
 h3, h5, p {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -158,7 +158,7 @@ h1 {
 }
 
 #aboutme {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 50px;
     margin-top: 0px;
     margin-bottom:0px;
@@ -304,7 +304,7 @@ h1 {
 #berkeley-title h2 {
     color: #C69E85;
     font-size: 50px;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 10px;
@@ -323,7 +323,7 @@ h1 {
 #cupertino-title h2 {
     color: #C69E85;
     font-size: 50px;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 10px;
@@ -362,7 +362,7 @@ h1 {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 10px;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 
 #small-head a {
@@ -397,7 +397,7 @@ h1 {
 }
 
 #lil-blurb {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     width: 275px;
     color: #FFF6ED;
@@ -417,7 +417,7 @@ h1 {
 }
 
 #mail-text {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: #FFF6ED;;
 }
@@ -444,13 +444,13 @@ h1 {
 }
 
 #linkedin-text {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: #FFF6ED;;
 }
 
 #attributions {
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 10px;
     padding-top: 15px;
     padding-bottom: 0;
