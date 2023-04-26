@@ -66,20 +66,20 @@ rbutt.onclick = moveForward;
 // window.onload = typeWriter;
 
 window.onload = function() {
-    const animatedText = document.getElementById("animated-text");
-    const text = "Kathleen Hua";
-    let index = 0;
-    let timeoutId;
-  
-    function type() {
-      const currentText = text.slice(0, ++index);
-      animatedText.innerHTML = currentText;
-      if (currentText.length === text.length) {
-        clearTimeout(timeoutId); // stop the animation
-        return;
-      }
-      timeoutId = setTimeout(type, 100);
-    }
-  
     type();
   };
+
+const animatedText = document.getElementById("animated-text");
+const text = "Kathleen Hua";
+let index = 0;
+let stop;
+  
+function type() {
+  stop = setTimeout(type, 100);
+  let currentText = text.slice(0, ++index);
+  animatedText.innerHTML = currentText;
+  if (currentText.length === text.length) {
+    clearTimeout(stop); // stop the animation
+    return;
+    }
+}
