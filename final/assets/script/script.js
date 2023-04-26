@@ -1,18 +1,3 @@
-// let slideIndex = 1;
-
-
-// function plusSlides(n) {
-//     showSlides(slideIndex += n);
-// }
-
-// function showSlides(n) {
-//     let i = 0;
-//     let slides = document.getElementsByClassName("slides");
-//     if (n > slides.length - 1) {slideIndex = 0}
-//     if (n < 0) {slideIndex = slides.length}
-//     slides[slideIndex].classList.remove('hidden');
-// }
-
 const images = [
     'img1',
     'img2',
@@ -46,24 +31,6 @@ let rbutt = document.getElementById("next");
 
 lbutt.onclick = moveBack;
 rbutt.onclick = moveForward;
-
-
-// let helloIm = document.getElementById("hello_Im");
-// let name = document.getElementById("name");
-
-// let i = 0;
-// let txt = "Kathleen Hua"; /* The text */
-// let speed = 50; /* The speed/duration of the effect in milliseconds */
-
-// function typeWriter() {
-//   if (i < txt.length) {
-//     document.getElementById("demo").innerHTML += txt.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, speed);
-//   }
-// }
-
-// window.onload = typeWriter;
 
 window.onload = function() {
     type();
